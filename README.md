@@ -18,5 +18,6 @@ This small project demonstrates the Observer design pattern using Python and Doc
 1. **Build the Docker Image**:
 
    ```bash
+   docker pull getch27/observer-example
    docker build -t observer-example .
    docker run observer-example
